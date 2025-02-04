@@ -59,7 +59,7 @@
           <mxGeometry x="741" y="183" width="390" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BH_a3vEXOQqy0Yr79a7O-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="741" y="325" width="364" height="156" as="geometry" />
+          <mxGeometry x="741" y="325" width="364" height="507" as="geometry" />
         </mxCell>
         <mxCell id="BH_a3vEXOQqy0Yr79a7O-35" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Target user&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="754" y="338" width="143" height="30" as="geometry" />
@@ -72,6 +72,42 @@
         </mxCell>
         <mxCell id="BH_a3vEXOQqy0Yr79a7O-38" value="foreign language learners" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="988" y="382" width="91" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-39" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Demand&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="754" y="464" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-40" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Công cụ ghi nhớ từ vựng mới.&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ôn lại từ vựng đã học.&lt;/span&gt;&lt;div&gt;Củng cố kiến thức ngôn ngữ.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="754" y="512" width="91" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-41" value="Tạo danh sách từ vựng.&lt;div&gt;Phục vụ dạy học.&lt;/div&gt;&lt;div&gt;Tạo các bài test thuận tiện.&lt;/div&gt;&lt;div&gt;Phục vụ nhu cầu dạy học.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="871" y="512" width="91" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-42" value="Phục vụ cho việc học và ghi nhớ từ vựng." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="988" y="512" width="91" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-43" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Chi phí phù hợp cho từng đối tượng người dùng.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Tính ổn định.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Sự chính xác trong dịch thuật.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Các tính năng mang lại hiệu quả tốt.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Thuận tiện khi sử dụng.&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Phù hợp cho mọi thiết bị và cấu hình phần cứng.&lt;/span&gt;&lt;/blockquote&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="754" y="715" width="325" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="183" width="416" height="272" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-49" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Task #1a: Khảo sát&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1313" y="195" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-51" value="&lt;font size=&quot;1&quot;&gt;Khảo sát người dùng sử dụng Google Form, thiết kế form khảo sát sao cho khi kết xuất ra file dữ liệu có thể mang đi phân tích được thuận tiện (có thể sử dụng python hoặc R cho việc phân tích dữ liệu sau đó kết xuất biểu đồ và đưa ra các kết luận ).&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Các mục gợi ý trong bài khảo sát:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Đối tượng người dùng: học sinh, giảng viên hay người đi làm,...&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Người dùng mong muốn thêm từ vựng theo cách nào (nhập từ/đoạn hay app tự động thu thập trong quá trình sử dụng thiết bị)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Người dùng mong muốn học từ vựng theo cách nào: nhắc nhở ôn tập hay tìm cách ứng dụng từ đã học trong thực tế.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Có nhu cầu đồng bộ giữa nhiều thiết bị và giữa nhiều người với nhau không&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Có nhu cầu hỗ trợ chi tiết vè phát âm hoặc mô tả không&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Khảo sát khả năng chi trả cho phần mềm nếu có gói trả phí (hãy đề ra các mức giá cụ thể)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1313" y="247" width="377" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="514" width="416" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-53" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Task #1b: Khảo sát&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1313" y="533" width="221" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-54" value="&lt;font size=&quot;1&quot;&gt;Khảo sát tính năng của các ứng dụng tương tự.&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1313" y="578" width="377" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BH_a3vEXOQqy0Yr79a7O-51" target="BH_a3vEXOQqy0Yr79a7O-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
