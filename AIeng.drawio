@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Trang-1" id="QdVctuVh_ac5PN6VSOF_">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="3187" dy="1716" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-3" value="AI-eng task chart" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=41;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="26" y="52" width="351" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-4" value="Design: @privmk-q1&lt;div&gt;method: Waterfall premium&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52" y="117" width="325" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-6" value="REQUIREMENT ANALYST&lt;div&gt;( Phân tích yêu cầu )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="156" y="260" width="326" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-7" value="SYSTEM DESIGN&lt;div&gt;( Thiết kế hệ thống )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="156" y="572" width="326" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-8" value="DEVELOPMENT&lt;br&gt;&lt;div&gt;( Triển khai lập trình )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="156" y="884" width="326" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-9" value="TESTING &amp;amp; INTEGRATION&lt;div&gt;( Kiểm thử )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="156" y="1196" width="326" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-10" value="DEPLOYMENT &amp;amp; MAINTENANCE&lt;br&gt;&lt;div&gt;( Triển khai )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=17;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="156" y="1508" width="326" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-14" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="273" y="442" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="273" y="754" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-16" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="273" y="1068" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="273" y="1380" width="70" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-18" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Red &lt;/font&gt;: Not Allow&lt;div&gt;&lt;font style=&quot;color: rgb(0, 255, 0);&quot;&gt;Green&lt;/font&gt;: Allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="156" y="442" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-20" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Red &lt;/font&gt;: Not Allow&lt;div&gt;&lt;font style=&quot;color: rgb(0, 255, 0);&quot;&gt;Green&lt;/font&gt;: Allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="754" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-21" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Red &lt;/font&gt;: Not Allow&lt;div&gt;&lt;font style=&quot;color: rgb(0, 255, 0);&quot;&gt;Green&lt;/font&gt;: Allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="158.25" y="1068" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-22" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Red &lt;/font&gt;: Not Allow&lt;div&gt;&lt;font style=&quot;color: rgb(0, 255, 0);&quot;&gt;Green&lt;/font&gt;: Allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="153.75" y="1380" width="100" height="52" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
