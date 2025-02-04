@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram name="Trang-1" id="QdVctuVh_ac5PN6VSOF_">
-    <mxGraphModel dx="3187" dy="1716" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="908" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,30 @@
         </mxCell>
         <mxCell id="BH_a3vEXOQqy0Yr79a7O-22" value="&lt;font style=&quot;color: rgb(255, 102, 102);&quot;&gt;Red &lt;/font&gt;: Not Allow&lt;div&gt;&lt;font style=&quot;color: rgb(0, 255, 0);&quot;&gt;Green&lt;/font&gt;: Allow&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="153.75" y="1380" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-24" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="689" y="156" width="2457" height="897" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-27" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="482" y="303" width="207" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-28" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Main&lt;/h1&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Giai đoạn này tập trung vào việc xác định rõ ràng các yêu cầu của ứng dụng sổ tay từ vựng tiếng Anh, bao gồm thu thập yêu cầu, phân tích và lập tài liệu đặc tả yêu cầu phần mềm (SRS - Software Requirement Specification).&lt;/span&gt;.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="741" y="183" width="390" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741" y="325" width="364" height="156" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-35" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Target user&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="754" y="338" width="143" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-36" value="Student" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="754" y="382" width="91" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-37" value="Teacher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="871" y="382" width="91" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-38" value="foreign language learners" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="988" y="382" width="91" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
