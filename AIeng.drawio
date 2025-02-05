@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Trang-1" id="QdVctuVh_ac5PN6VSOF_">
-    <mxGraphModel dx="2510" dy="1343" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="3012" dy="1612" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BH_a3vEXOQqy0Yr79a7O-3" value="AI-eng task chart" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=41;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="26" y="52" width="351" height="65" as="geometry" />
+        <mxCell id="BH_a3vEXOQqy0Yr79a7O-3" value="AI-eng task chart" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=120;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="43.5" y="234" width="1204.5" height="195" as="geometry" />
         </mxCell>
         <mxCell id="BH_a3vEXOQqy0Yr79a7O-4" value="Design: @privmk-q1&lt;div&gt;method: Waterfall premium&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="52" y="117" width="325" height="39" as="geometry" />
