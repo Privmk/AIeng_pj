@@ -6,7 +6,7 @@
 
 Cài đặt các phụ thuộc:
 ```bash
-cd vite-demo
+cd web-test-tranlation
 npm install
 ```
 ## Chạy dự án
