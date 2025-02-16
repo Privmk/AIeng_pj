@@ -15,3 +15,10 @@ export const SPEECH2TEXT_AUDIO = document.getElementById('audio-player');
 export const SPEECH2TEXT_OUTPUT_TEXTBOX = document.getElementById('speech2text-output-textbox');
 export const GENERATION_OPTIONS = document.getElementsByClassName('generation-option');
 export const GENERATE_BUTTON = document.getElementById('generate');
+
+export const AUDIO_CHECK = document.getElementById('audio-check');
+export const START_RECORD = document.getElementById('start-record');
+export const STOP_RECORD = document.getElementById('stop-record');
+export const RECORDING_INDICATOR = document.getElementById('recording-indicator');
+export const SPEECH3TEXT_OUTPUT_TEXTBOX = document.getElementById('speech3text-output-textbox');
+export const AUDIO_CONTAINER = document.getElementById('audio-container');

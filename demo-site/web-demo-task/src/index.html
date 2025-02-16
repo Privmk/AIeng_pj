@@ -1,367 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="author" content="Xenova" />
-    <title>Transformers.js</title>
-    <meta name="description"
-      content="State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="author" content="Xenova" />
+  <title>Transformers.js</title>
+  <meta name="description"
+    content="State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!" />
 
-    <!-- Favicon-->
-    <!-- Icon made by Freepik (https://www.flaticon.com/free-icons/robot) -->
-    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
+  <!-- Favicon-->
+  <!-- Icon made by Freepik (https://www.flaticon.com/free-icons/robot) -->
+  <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
 
-    <!-- Bootstrap icons-->
-    <link href="./theme.css" rel="stylesheet" />
-    <link href="./css/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Bootstrap icons-->
+  <link href="./theme.css" rel="stylesheet" />
+  <link href="./css/bootstrap-icons.css" rel="stylesheet" />
 
-    <!-- Page JS-->
-    <script type="module" src="/main.js" defer></script>
-  </head>
+  <!-- Page JS-->
+  <script type="module" src="/main.js" defer></script>
+</head>
 
-  <body>
-    <div id="app">
-      <!-- Responsive navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container px-5">
-          <a class="navbar-brand" href="#">Transformers.js</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation"><span
-              class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link"
-                  href="#demo">Demo</a></li>
-              <li class="nav-item"><a class="nav-link" href="#quick-tour">Quick
-                  tour</a></li>
-            </ul>
-          </div>
+<body>
+  <div id="app">
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-5">
+        <a class="navbar-brand" href="#">Transformers.js</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#quick-tour">Quick
+                tour</a></li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <!-- Modal -->
-      <div class="modal fade" id="content-modal" tabindex="-1"
-        aria-labelledby="modal-label" aria-hidden="true">
-        <div
-          class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="modal-label">Viewing content</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"
-                aria-label="Close"></button>
+    <!-- Modal -->
+    <div class="modal fade" id="content-modal" tabindex="-1" aria-labelledby="modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal-label">Viewing content</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header-->
+    <header class="bg-dark pt-3 pb-5">
+      <div class="container px-5">
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-6">
+            <div class="text-center">
+              <h1 class="display-5 fw-bolder text-white mb-2">Transformers.js</h1>
+              <p class="lead text-white-50 mb-4">
+                Run <span class="text-white">🤗</span> Transformers in your
+                browser!
+              </p>
+              <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                <a class="btn btn-primary btn-lg px-4 me-sm-3"
+                  href="https://huggingface.co/docs/transformers.js">Documentation</a>
+                <a class="btn btn-outline-light btn-lg px-4" href="https://github.com/huggingface/transformers.js">
+                  <i class="bi bi-github"></i> View Source
+                </a>
+              </div>
             </div>
-            <div class="modal-body"></div>
           </div>
         </div>
       </div>
+    </header>
 
-      <!-- Header-->
-      <header class="bg-dark pt-3 pb-5">
-        <div class="container px-5">
-          <div class="row gx-5 justify-content-center">
-            <div class="col-lg-6">
-              <div class="text-center">
-                <h1
-                  class="display-5 fw-bolder text-white mb-2">Transformers.js</h1>
-                <p class="lead text-white-50 mb-4">
-                  Run <span class="text-white">🤗</span> Transformers in your
-                  browser!
-                </p>
-                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                  <a class="btn btn-primary btn-lg px-4 me-sm-3"
-                    href="https://huggingface.co/docs/transformers.js">Documentation</a>
-                  <a class="btn btn-outline-light btn-lg px-4"
-                    href="https://github.com/huggingface/transformers.js">
-                    <i class="bi bi-github"></i> View Source
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- Demo section-->
+    <section class="py-4 border-bottom" id="demo">
+      <div class="container px-5 my-4">
+        <div class="mb-2">
+          <h2 class="fw-bolder">Demo</h2>
+          <p class="lead mb-0">Play around with some of these models:</p>
         </div>
-      </header>
-
-      <!-- Demo section-->
-      <section class="py-4 border-bottom" id="demo">
-        <div class="container px-5 my-4">
-          <div class="mb-2">
-            <h2 class="fw-bolder">Demo</h2>
-            <p class="lead mb-0">Play around with some of these models:</p>
+        <div class="row justify-content-center">
+          <label>Task: </label>
+          <div class="col-12 mt-1">
+            <select id="task" class="form-select">
+              <option value="translation">
+                Translation w/ NLLB-200 (600 MB)
+              </option>
+              <option value="automatic-speech-recognition">
+                Speech to text w/ whisper-tiny.en (41 MB)
+              </option>
+              <option value="pronunciation" selected>
+                Speech to text and pronunciation check w/ whisper-tiny.en (41 MB)
+              </option>
+            </select>
           </div>
-          <div class="row justify-content-center">
-            <label>Task: </label>
-            <div class="col-12 mt-1">
-              <select id="task" class="form-select">
-                <option value="translation" selected>
-                  Translation w/ NLLB-200 (600 MB)
-                </option>
-                <option value="automatic-speech-recognition">
-                  Speech to text w/ whisper-tiny.en (41 MB)
-                </option>
-              </select>
-            </div>
 
-            <div id="languages" task="translation" class="task-settings">
-              <label class="mt-2">Languages: </label>
-              <div class="d-flex">
-                <div style="width: calc(50% - 20px);">
-                  <select id="language-from" class="form-select mt-1 col-3">
-                    <option value="eng_Latn" selected>English</option>
+          <div id="languages" task="translation" class="task-settings">
+            <label class="mt-2">Languages: </label>
+            <div class="d-flex">
+              <div style="width: calc(50% - 20px);">
+                <select id="language-from" class="form-select mt-1 col-3">
+                  <option value="eng_Latn" selected>English</option>
+                </select>
+              </div>
+              <div style="width: 40px;" class="d-flex justify-content-center align-items-center">to</div>
+              <div style="width: calc(50% - 20px);">
+                <select id="language-to" class="form-select mt-1 col-3">
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="task-settings"
+            task="translation,text-generation,code-completion,masked-language-modelling,summarization,automatic-speech-recognition,image-to-text,zero-shot-classification">
+            <label class="mt-2">Parameters: </label>
+            <div class="row">
+              <div class="task-settings col-xl-2 col-md-4 col-sm-6"
+                task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
+                <div class="input-group mb-2">
+                  <span class="input-group-text">Max length</span>
+                  <input type="number" param-name="max_new_tokens" datatype="number" min="1"
+                    class="form-control generation-option" value="200">
+                </div>
+              </div>
+              <div class="task-settings col-xl-2 col-md-4 col-sm-6"
+                task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
+                <div class="input-group mb-2" title="Number of beams">
+                  <span class="input-group-text">No. beams</span>
+                  <input type="number" param-name="num_beams" datatype="number" min="1" max="50"
+                    class="form-control generation-option" value="1">
+                </div>
+              </div>
+              <div class="task-settings col-xl-2 col-md-4 col-sm-6" task="masked-language-modelling">
+                <div class="input-group mb-2" title="Number of samples">
+                  <span class="input-group-text">No. samples</span>
+                  <input type="number" param-name="topk" datatype="number" min="1" max="50"
+                    class="form-control generation-option" value="5">
+                </div>
+              </div>
+              <div class="task-settings col-xl-2 col-md-4 col-sm-6"
+                task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
+                <div class="input-group mb-2" title="Temperature (> 0)">
+                  <span class="input-group-text">Temp.</span>
+                  <input type="number" param-name="temperature" datatype="number" min="0.001" step="1"
+                    class="form-control generation-option" value="1">
+                </div>
+              </div>
+              <div class="task-settings col-xl-2 col-md-4 col-sm-6"
+                task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
+                <div class="input-group mb-2">
+                  <span class="input-group-text">Top K</span>
+                  <input type="number" param-name="top_k" datatype="number" min="0"
+                    class="form-control generation-option" value="0">
+                </div>
+              </div>
+              <div class="task-settings col-xl-2 col-md-4 col-sm-6"
+                task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
+                <div class="input-group mb-2" title="Perform multinomial sampling">
+                  <label class="input-group-text" for="sample-select">Sample</label>
+                  <select param-name="do_sample" datatype="bool" class="form-select generation-option"
+                    id="sample-select">
+                    <option value="true">Yes</option>
+                    <option value="false" selected>No</option>
                   </select>
                 </div>
-                <div style="width: 40px;"
-                  class="d-flex justify-content-center align-items-center">to</div>
-                <div style="width: calc(50% - 20px);">
-                  <select id="language-to" class="form-select mt-1 col-3">
+              </div>
+              <div class="task-settings col-xl-2 col-md-4 col-sm-6" task="zero-shot-classification">
+                <div class="input-group mb-2" title="Allow multiple true classes">
+                  <label class="input-group-text" for="multi-label-select">Multi label</label>
+                  <select param-name="multi_label" datatype="bool" class="form-select generation-option"
+                    id="multi-label-select">
+                    <option value="true">Yes</option>
+                    <option value="false" selected>No</option>
                   </select>
                 </div>
               </div>
             </div>
-            <div class="task-settings"
-              task="translation,text-generation,code-completion,masked-language-modelling,summarization,automatic-speech-recognition,image-to-text,zero-shot-classification">
-              <label class="mt-2">Parameters: </label>
-              <div class="row">
-                <div class="task-settings col-xl-2 col-md-4 col-sm-6"
-                  task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
-                  <div class="input-group mb-2">
-                    <span class="input-group-text">Max length</span>
-                    <input type="number" param-name="max_new_tokens"
-                      datatype="number" min="1"
-                      class="form-control generation-option" value="200">
-                  </div>
+          </div>
+          <div task="translation" class="task-settings">
+            <div class="row">
+              <div class="col-lg-6">
+                <textarea id="input-textbox" class="mt-3 form-control" rows="5">Hello, how are you?</textarea>
+              </div>
+              <div class="col-lg-6">
+                <textarea id="output-textbox" class="mt-3 form-control" rows="5">
+                  </textarea>
+              </div>
+            </div>
+          </div>
+
+          <div task="automatic-speech-recognition" class="task-settings">
+
+            <div class="row">
+
+              <label class="mt-3">Audio: </label>
+
+              <div class="col-lg-6">
+                <select id="audio-select" class="form-select">
+                  <option value="./audio/jfk.wav">Example 1</option>
+                  <option value="./audio/ted.wav">Example 2</option>
+                  <option value="./audio/ted_60.wav">Example 3</option>
+                  <option show-custom>Custom</option>
+                </select>
+
+                <input class="mt-2 form-control" style="display: none;" type="file" id="audio-file" name="audio-file"
+                  accept="audio/*">
+
+                <audio id="audio-player" controls class="mt-2 w-100">
+                  <source src="./audio/jfk.wav">
+                  Your browser does not support the audio element.
+                </audio>
+              </div>
+
+              <div class="col-lg-6">
+                <textarea id="speech2text-output-textbox" class="form-control" rows="6"></textarea>
+              </div>
+            </div>
+          </div>
+          <div task="pronunciation" class="task-settings">
+
+            <div class="row">
+
+              <label class="mt-3"> Please read this text:</label>
+              <span style="font-weight: 600;">How old are you?</span>
+              <div class="col-lg-6">
+                <div style="padding: 5px;">
+                  <button id="start-record">Bắt đầu ghi âm</button>
+                  <button id="stop-record" disabled>Dừng ghi âm</button>
                 </div>
-                <div class="task-settings col-xl-2 col-md-4 col-sm-6"
-                  task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
-                  <div class="input-group mb-2" title="Number of beams">
-                    <span class="input-group-text">No. beams</span>
-                    <input type="number" param-name="num_beams"
-                      datatype="number" min="1" max="50"
-                      class="form-control generation-option" value="1">
-                  </div>
+                <div id="audio-container" style="display: none;">
+                  <audio id="audio-check" controls ></audio>
                 </div>
-                <div class="task-settings col-xl-2 col-md-4 col-sm-6"
-                  task="masked-language-modelling">
-                  <div class="input-group mb-2" title="Number of samples">
-                    <span class="input-group-text">No. samples</span>
-                    <input type="number" param-name="topk" datatype="number"
-                      min="1" max="50"
-                      class="form-control generation-option" value="5">
-                  </div>
-                </div>
-                <div class="task-settings col-xl-2 col-md-4 col-sm-6"
-                  task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
-                  <div class="input-group mb-2" title="Temperature (> 0)">
-                    <span class="input-group-text">Temp.</span>
-                    <input type="number" param-name="temperature"
-                      datatype="number" min="0.001" step="1"
-                      class="form-control generation-option" value="1">
-                  </div>
-                </div>
-                <div class="task-settings col-xl-2 col-md-4 col-sm-6"
-                  task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
-                  <div class="input-group mb-2">
-                    <span class="input-group-text">Top K</span>
-                    <input type="number" param-name="top_k" datatype="number"
-                      min="0"
-                      class="form-control generation-option" value="0">
-                  </div>
-                </div>
-                <div class="task-settings col-xl-2 col-md-4 col-sm-6"
-                  task="translation,text-generation,code-completion,summarization,automatic-speech-recognition,image-to-text">
-                  <div class="input-group mb-2"
-                    title="Perform multinomial sampling">
-                    <label class="input-group-text"
-                      for="sample-select">Sample</label>
-                    <select param-name="do_sample" datatype="bool"
-                      class="form-select generation-option"
-                      id="sample-select">
-                      <option value="true">Yes</option>
-                      <option value="false" selected>No</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="task-settings col-xl-2 col-md-4 col-sm-6"
-                  task="zero-shot-classification">
-                  <div class="input-group mb-2"
-                    title="Allow multiple true classes">
-                    <label class="input-group-text"
-                      for="multi-label-select">Multi label</label>
-                    <select param-name="multi_label" datatype="bool"
-                      class="form-select generation-option"
-                      id="multi-label-select">
-                      <option value="true">Yes</option>
-                      <option value="false" selected>No</option>
-                    </select>
+                <div id="recording-indicator" style="display: none;">
+                  <div style="display: flex; align-items: center; gap: 5px;">
+                    <div class="red-dot"></div>
+                    <span>Recording...</span>
                   </div>
                 </div>
               </div>
-            </div>
-            <div task="translation" class="task-settings">
-              <div class="row">
-                <div class="col-lg-6">
-                  <textarea id="input-textbox" class="mt-3 form-control"
-                    rows="5">Hello, how are you?</textarea>
-                </div>
-                <div class="col-lg-6">
-                  <textarea id="output-textbox" class="mt-3 form-control"
-                    rows="5"></textarea>
-                </div>
+
+              <div class="col-lg-6">
+                <textarea id="speech3text-output-textbox" class="form-control" rows="6"></textarea>
               </div>
             </div>
-            
-            <div task="automatic-speech-recognition" class="task-settings">
+          </div>
+          <div class="mt-3 mb-1">
+            Notes:
+            <ul>
+              <li>Clicking <em>Generate</em> for the first time will download
+                the corresponding model from
+                the
+                <a href="https://huggingface.co/models">HuggingFace Hub</a>.
+                All subsequent requests will use the cached model.
+              </li>
+              <li>For more information about the different parameters, check
+                out HuggingFace's
+                <a href="https://huggingface.co/blog/how-to-generate">guide to
+                  text generation</a>.
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 mt-2 d-flex justify-content-center">
+            <button id="generate" type="button" class="btn btn-primary">Generate</button>
 
-              <div class="row">
-
-                <label class="mt-3">Audio: </label>
-
-                <div class="col-lg-6">
-                  <select id="audio-select" class="form-select">
-                    <option value="./audio/jfk.wav">Example 1</option>
-                    <option value="./audio/ted.wav">Example 2</option>
-                    <option value="./audio/ted_60.wav">Example 3</option>
-                    <option show-custom>Custom</option>
-                  </select>
-
-                  <input class="mt-2 form-control" style="display: none;"
-                    type="file" id="audio-file" name="audio-file"
-                    accept="audio/*">
-
-                  <audio id="audio-player" controls class="mt-2 w-100">
-                    <source src="./audio/jfk.wav">
-                    Your browser does not support the audio element.
-                  </audio>
-                </div>
-
-                <div class="col-lg-6">
-                  <textarea id="speech2text-output-textbox" class="form-control"
-                    rows="6"></textarea>
-                </div>
-              </div>
-            </div>
-            <div class="mt-3 mb-1">
-              Notes:
-              <ul>
-                <li>Clicking <em>Generate</em> for the first time will download
-                  the corresponding model from
-                  the
-                  <a href="https://huggingface.co/models">HuggingFace Hub</a>.
-                  All subsequent requests will use the cached model.
-                </li>
-                <li>For more information about the different parameters, check
-                  out HuggingFace's
-                  <a href="https://huggingface.co/blog/how-to-generate">guide to
-                    text generation</a>.
-                </li>
-              </ul>
-            </div>
-            <div class="col-12 mt-2 d-flex justify-content-center">
-              <button id="generate" type="button"
-                class="btn btn-primary">Generate</button>
-
-              <!-- <button class="btn btn-primary" type="button">
+            <!-- <button class="btn btn-primary" type="button">
                       <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                       <span class="visually-hidden">Loading...</span>
                     </button> -->
-            </div>
+          </div>
 
-            <div id="progress" class="col-12 mt-4" style="display: none;">
-              <div class="d-flex align-items-center position-relative py-2">
-                <div><strong>Loading model files...</strong> (only run
-                  once)</div>
-                <div class="spinner-border position-absolute" role="status"
-                  aria-hidden="true" style="right: 0">
-                </div>
+          <div id="progress" class="col-12 mt-4" style="display: none;">
+            <div class="d-flex align-items-center position-relative py-2">
+              <div><strong>Loading model files...</strong> (only run
+                once)</div>
+              <div class="spinner-border position-absolute" role="status" aria-hidden="true" style="right: 0">
               </div>
-
-              <div id="progress-bars"
-                class="d-flex justify-content-center flex-column gap-2 py-2"></div>
             </div>
+
+            <div id="progress-bars" class="d-flex justify-content-center flex-column gap-2 py-2"></div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Teaser section-->
-      <section class="py-4 border-bottom" id="quick-tour">
-        <div class="container px-5 my-4">
-          <div class="mb-3">
-            <h2 class="fw-bolder">Quick tour</h2>
-          </div>
-          <div class="mb-3">
-            <h5 class="mb-2">Installation</h5>
-            To install via <a
-              href="https://www.npmjs.com/package/@xenova/transformers">NPM</a>,
-            run:
-            <pre><code class="language-bash">npm i @xenova/transformers</code></pre>
+    <!-- Teaser section-->
+    <section class="py-4 border-bottom" id="quick-tour">
+      <div class="container px-5 my-4">
+        <div class="mb-3">
+          <h2 class="fw-bolder">Quick tour</h2>
+        </div>
+        <div class="mb-3">
+          <h5 class="mb-2">Installation</h5>
+          To install via <a href="https://www.npmjs.com/package/@xenova/transformers">NPM</a>,
+          run:
+          <pre><code class="language-bash">npm i @xenova/transformers</code></pre>
 
-            Alternatively, you can use it in vanilla JS, without any bundler, by
-            using a CDN
-            or static hosting. For example, using
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">ES
-              Modules</a>,
-            you can import the library with:
+          Alternatively, you can use it in vanilla JS, without any bundler, by
+          using a CDN
+          or static hosting. For example, using
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules">ES
+            Modules</a>,
+          you can import the library with:
 
-            <pre><code class="language-html">&lt;script type=&quot;module&quot;&gt;
+          <pre><code class="language-html">&lt;script type=&quot;module&quot;&gt;
     import { pipeline } from &#39;https://cdn.jsdelivr.net/npm/@xenova/transformers&#39;;
 &lt;/script&gt;</code></pre>
-          </div>
+        </div>
 
-          <div class="mb-3">
-            <h5 class="mb-2">Basic example</h5>
-            It's super easy to translate from existing code!
-            <div class="row gx-5">
-              <div class="col-lg-6 mb-4 mb-lg-0">
-                <pre><code class="language-python">from transformers import pipeline
+        <div class="mb-3">
+          <h5 class="mb-2">Basic example</h5>
+          It's super easy to translate from existing code!
+          <div class="row gx-5">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <pre><code class="language-python">from transformers import pipeline
 
 # Allocate a pipeline for sentiment-analysis
 pipe = pipeline('sentiment-analysis')
 
 out = pipe('I love transformers!')
 # [{'label': 'POSITIVE', 'score': 0.999806941}]</code></pre>
-                <p class="mb-0 text-center">Python (original)</p>
+              <p class="mb-0 text-center">Python (original)</p>
 
-              </div>
-              <div class="col-lg-6 mb-4 mb-lg-0">
-                <pre><code class="language-js">import { pipeline } from '@xenova/transformers';
+            </div>
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <pre><code class="language-js">import { pipeline } from '@xenova/transformers';
 
 // Allocate a pipeline for sentiment-analysis
 let pipe = await pipeline('sentiment-analysis');
 
 let out = await pipe('I love transformers!');
 // [{'label': 'POSITIVE', 'score': 0.999817686}]</code></pre>
-                <p class="mb-0 text-center">JavaScript (ours)</p>
-              </div>
+              <p class="mb-0 text-center">JavaScript (ours)</p>
             </div>
-            <br>
-            In the same way as the Python library, you can use a different model
-            by providing its
-            name as the second argument to the pipeline function. For example:
-            <pre><code class="language-js">// Use a different model for sentiment-analysis
+          </div>
+          <br>
+          In the same way as the Python library, you can use a different model
+          by providing its
+          name as the second argument to the pipeline function. For example:
+          <pre><code class="language-js">// Use a different model for sentiment-analysis
 let pipe = await pipeline('sentiment-analysis', 'nlptown/bert-base-multilingual-uncased-sentiment');</code></pre>
 
-            <br>
-            For the full list of available tasks and architectures, check out
-            the
-            <a
-              href="https://huggingface.co/docs/transformers.js/index#supported-tasksmodels">documentation</a>.
-          </div>
+          <br>
+          For the full list of available tasks and architectures, check out
+          the
+          <a href="https://huggingface.co/docs/transformers.js/index#supported-tasksmodels">documentation</a>.
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Footer-->
-      <footer class="py-3 bg-dark">
-        <div class="container px-5">
-          <p class="m-0 text-center text-white">Copyright &copy; Xenova 2023</p>
-        </div>
-      </footer>
+    <!-- Footer-->
+    <footer class="py-3 bg-dark">
+      <div class="container px-5">
+        <p class="m-0 text-center text-white">Copyright &copy; Xenova 2023</p>
+      </div>
+    </footer>
 
-    </div>
-  </body>
+  </div>
+</body>
 
 </html>

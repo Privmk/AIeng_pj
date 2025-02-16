@@ -1,4 +1,4 @@
-import { worker } from "./init";
+import { recording, worker } from "./init";
 import {
     GENERATION_OPTIONS,
     TASK_SELECTOR,
@@ -9,6 +9,11 @@ import {
     OUTPUT_TEXTBOX,
     SPEECH2TEXT_AUDIO,
     SPEECH2TEXT_OUTPUT_TEXTBOX,
+    START_RECORD,
+    RECORDING_INDICATOR,
+    STOP_RECORD,
+    AUDIO_CHECK,
+    SPEECH3TEXT_OUTPUT_TEXTBOX,
 } from "./dom";
 
 import { updateVisibility } from "./utils/updateVisibility";
@@ -45,9 +50,22 @@ GENERATE_BUTTON.addEventListener('click', async (e) => {
             data.audio = decoded.getChannelData(0);
             data.elementIdToUpdate = SPEECH2TEXT_OUTPUT_TEXTBOX.id
             break;
+        case 'pronunciation':
+            const sampling_rate1 = 16000;
+            const audioCTX1 = new AudioContext({ sampleRate: sampling_rate1 })
+
+            const response1 = await (await fetch(AUDIO_CHECK.currentSrc)).arrayBuffer()
+            const decoded1 = await audioCTX1.decodeAudioData(response1)
+
+            data.audio = decoded1.getChannelData(0);
+            data.elementIdToUpdate = SPEECH3TEXT_OUTPUT_TEXTBOX.id
+            break;
         default:
             return;
     }
 
     worker.postMessage(data);
 });
+
+START_RECORD.addEventListener('click', recording.startRecording);
+STOP_RECORD.addEventListener('click', recording.stopRecording);

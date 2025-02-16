@@ -1,6 +1,7 @@
 import { env } from "@xenova/transformers";
 import { translate } from "./tasks/translation";
 import { speech_to_text } from "./tasks/speechRecognition";
+import { pronunciation_check } from "./tasks/pronunciationCheck";
 
 env.allowLocalModels = false;
 
@@ -8,6 +9,7 @@ env.allowLocalModels = false;
 const TASK_FUNCTION_MAPPING = {
     'translation': translate,
     'automatic-speech-recognition': speech_to_text,
+    'pronunciation': pronunciation_check
 }
 
 self.addEventListener('message', async (event) => {

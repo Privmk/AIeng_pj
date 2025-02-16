@@ -9,6 +9,7 @@ import {
     SPEECH2TEXT_INPUT,
 } from "./dom";
 import { updateVisibility } from "./utils/updateVisibility";
+import { Recording } from "./utils/recording.js";
 // Initialise worker
 export const worker = new Worker(new URL('./workers/worker.js', import.meta.url), {
     type: 'module',
@@ -55,3 +56,5 @@ LANGUAGE.forEach(lang => {
         media.src = url;
     });
 });
+
+export const recording = new Recording();
